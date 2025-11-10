@@ -103,13 +103,6 @@ Main Flask application with:
 - Web routes and API endpoints
 - Real-time prediction logic
 
-### templates/index.html
-Frontend interface with:
-- Voice recording functionality
-- File upload handling
-- Real-time result visualization
-- Responsive design
-
 ### Model Files (Auto-generated)
 - `parkinsons_model.pkl`: Trained Random Forest model
 - `scaler.pkl`: Feature scaling parameters
