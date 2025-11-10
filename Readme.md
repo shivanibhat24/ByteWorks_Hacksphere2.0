@@ -29,8 +29,7 @@ parkinsons_detection/
 ├── app.py
 ├── requirements.txt
 ├── README.md
-└── templates/
-    └── index.html
+└── test_model.py
 ```
 
 3. **Install dependencies**:
