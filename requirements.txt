@@ -1,8 +1,39 @@
-Flask==3.0.0
-numpy==1.24.3
-pandas==2.0.3
+# NeuroVoice - Requirements
+# Python 3.8+ required
+
+# Core Framework
+streamlit==1.28.0
+
+# Audio Processing
 librosa==0.10.1
-scikit-learn==1.3.0
-scipy==1.11.3
 soundfile==0.12.1
-Werkzeug==3.0.1
+audio-recorder-streamlit==0.0.8
+
+# Machine Learning
+scikit-learn==1.3.2
+numpy==1.24.3
+pandas==2.1.3
+
+# Signal Processing
+scipy==1.11.4
+
+# Visualization
+plotly==5.18.0
+
+# Utilities
+python-dateutil==2.8.2
+
+# Additional Dependencies (automatically installed with above)
+# numba - required by librosa
+# joblib - required by scikit-learn
+# threadpoolctl - required by scikit-learn
+# cffi - required by soundfile
+# pycparser - required by cffi
+# decorator - required by librosa
+# audioread - required by librosa
+# pooch - required by librosa
+# soxr - required by librosa
+# lazy-loader - required by librosa
+# msgpack - required by librosa
+# packaging - required by librosa
+# tenacity - required by plotly
